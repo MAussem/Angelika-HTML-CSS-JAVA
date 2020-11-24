@@ -837,12 +837,6 @@ html {
     .team {
         padding-bottom: 5rem;
     }
-
-    .cards-wrapper {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 4rem;
-    }
     
     .card {
         margin-bottom: 8rem;
@@ -861,7 +855,13 @@ html {
         margin: 2rem 0;
     }
 }
-
+@media(max-width: 1250px) {
+    .cards-wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4rem;
+    }
+}
 
 @media(max-width: 1000px) {
     .banner h1 {
@@ -888,6 +888,13 @@ html {
     .service {
         width: 40rem;
         margin-bottom: 6rem;
+    }
+
+    
+    .cards-wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4rem;
     }
 
     .about-me-img-wrapper {
