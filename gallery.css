@@ -1,47 +1,62 @@
+@font-face {
+    font-family: 'signPainter';
+    src: url('/fonts/SignPainter-HouseScript.ttf')
+}
+
+@font-face {
+    font-family: 'sylfaen';
+    src: url('/fonts/sylfaen.ttf')
+}
+
 * {
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
+    background-image: url("images/project5.png");
+    overflow-x: hidden;
 }
 
-.container {
-    width: 100%;
-    min-height: 100vh;
-    background-color: #fff;
+h1 {
+    font-family: 'sylfaen';
+    font-size: 3rem;
+    text-align: center;
+    color: #c29525;
+} 
+
+
+
+.gallery img {
+    width: 600px;
+    height: 450px;
 }
 
-.navbar {
-    width: 90%;
-    height: 15vh;
-    margin: auto;
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    width: 130px;
-    cursor: pointer;
-}
-
-.menu-icon {
-    width: 30px;
-    cursor: pointer;
-}
-
-nav {
-    flex: 1;
+.des {
+    font-family: 'signPainter';
+    font-size: 1.5rem;
+    color: #c29525;
+    padding: 15px;
     text-align: center;
 }
 
-nav ul li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 60px;
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 25%;
 }
 
-nav ul li a  {
-    text-decoration: none;
-    color: #c29525;
-    font-size: 14px;
-    padding: 5px 2px;
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 50%;
+        margin: 6px 0;
+    }
 }
 
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+
+a {
+    width: 300;
+    height: 200;
+}
