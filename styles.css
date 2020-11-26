@@ -659,7 +659,14 @@ html {
     font-size: 6rem;
     font-weight: 300;
     color: #272727;
-    margin-bottom: 5rem;
+    text-align: center;
+}
+.contact-number {
+    font-family: 'SignPainter';
+    font-size: 3rem;
+    font-weight: 300;
+    color: #272727;
+    margin-bottom: 4rem;
     text-align: center;
 }
 
