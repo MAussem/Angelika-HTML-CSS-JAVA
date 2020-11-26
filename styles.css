@@ -507,6 +507,13 @@ html {
     text-align: justify;
 }
 
+.service-textD {
+    font-family: 'sylfaen';
+    font-size: 1.6rem;
+    text-align: justify;
+    padding-right: 7rem;
+}
+
 .about-me-img-wrapper {
     grid-column: 7/11;
     grid-row: 2/6;
@@ -782,14 +789,7 @@ html {
 
 
 @media(max-width: 1500px) {
-    .about-me-img-wrapper {
-        grid-row: 3 / -1;
-    }
-
-    .card {
-        width: 34rem;
-    }
-
+ 
     .contact-wrapper {
         width: 80%;
         height: 65rem;
@@ -964,7 +964,7 @@ html {
     }
 }
 
-@media(max-width: 500px) {
+@media(max-width: 565px) {
     html {
         font-size: 45%;
     }
@@ -984,6 +984,12 @@ html {
 
     .footer {
         height: 18rem;
+    }
+}
+
+@media(max-width: 411px) {
+    a .buttonD {
+       display: none;
     }
 }
 

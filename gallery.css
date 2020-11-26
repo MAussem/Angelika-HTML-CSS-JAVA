@@ -15,12 +15,11 @@
 }
 
 h1 {
-    font-family: 'sylfaen';
-    font-size: 3rem;
+    font-family: 'signPainter';
+    font-size: 2.4rem;
     text-align: center;
     color: #c29525;
 } 
-
 
 
 .gallery img {
@@ -29,8 +28,8 @@ h1 {
 }
 
 .des {
-    font-family: 'signPainter';
-    font-size: 1.5rem;
+    font-family: 'sylfaen';
+    font-size: 1.2rem;
     color: #c29525;
     padding: 15px;
     text-align: center;
@@ -69,7 +68,14 @@ h1 {
         width: 100%;
     }
 }
-
+@media only screen and (max-width: 380px) {
+.responsive img {
+    width: 95%;
+    height: 95%;
+    object-position: center;
+    padding-left: 1rem;
+    }
+}
 
 a {
     width: 300;
