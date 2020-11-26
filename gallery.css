@@ -42,6 +42,21 @@ h1 {
     width: 25%;
 }
 
+.scroll-btn {
+    position: fixed;
+    right: 5rem;
+    bottom: 5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #c29525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #fff;
+    border-radius: 0.3rem;
+}
+
 @media only screen and (max-width: 700px) {
     .responsive {
         width: 50%;
