@@ -210,7 +210,7 @@
                 <div class="contact-left"></div>
                 <div class="contact-right">
                     <h1 class="contact-heading">Contact Me</h1>
-                    <form>
+                    <form action="POST" data-netlify="true">
                         <div class="input-group">
                             <input type="text" class="field" />
                             <label class="input-label">Full Name</label>
@@ -222,6 +222,9 @@
                         <div class="input-group">
                             <textarea class="field"></textarea>
                             <label class="message">Message</label>
+                            <div class="field">
+                                <div data-netlify-recaptcha="true"></div>
+                            </div>
                         </div>
                         <input type="submit" class="submit-btn" value="Submit" />
                     </form>
