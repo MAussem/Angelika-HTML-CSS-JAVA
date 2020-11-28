@@ -10,6 +10,9 @@
 
 * {
     box-sizing: border-box;
+}
+
+body {
     background-image: url("images/project5.png");
     overflow-x: hidden;
 }
@@ -22,10 +25,18 @@ h1 {
     color: #c29525;
 } 
 
+.gallery {
+    padding-right: 6px;
+}
 
 .gallery img {
     width: 550px;
     height: 600px;
+    padding: 0 6px;
+}
+
+.gallery img:hover {
+    transform: scale(1.01);
 }
 
 .des {
