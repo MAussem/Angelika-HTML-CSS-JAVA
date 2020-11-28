@@ -1,0 +1,263 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/fonts/SignPainter-HouseScript.ttf">
+    <link rel="stylesheet" href="/fonts/sylfaen.ttf">
+    <script src="https://kit.fontawesome.com/9d72cbcdc4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @font-face {
+            font-family: 'signPainter';
+            src: url('/fonts/SignPainter-HouseScript.ttf')
+        }
+
+        @font-face {
+            font-family: 'sylfaen';
+            src: url('/fonts/sylfaen.ttf')
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url("images/project5.png");
+            overflow-x: hidden;
+        }
+
+        h2 {
+            font-family: 'signPainter';
+            font-size: 4rem;
+            text-align: center;
+            margin-top: 3rem;
+            color: #c29525;
+            font-weight: 100;
+        }
+
+
+        .mySlides {
+            display: none;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        .scroll-btn {
+            position: fixed;
+            right: 5rem;
+            bottom: 5rem;
+            width: 3.5rem;
+            height: 3.5rem;
+            background-color: #c29525;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            color: #fff;
+            border-radius: 0.3rem;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            width: 1080px;
+            height: 720px;
+            position: relative;
+            margin: auto;
+            margin-top: 1rem;
+            margin-bottom: 6rem;
+        }
+
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+            .text {
+                font-size: 11px
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Automatic Slideshow</h2>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="images/a1.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/a2.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/a3.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/a4.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/tb.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/tb1.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/tb2.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/tb4.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/tb5.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/tb6.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/tb7.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <div class="left-arrow">
+        <a href="index.html" class="scroll-btn">
+            <i class="fas fa-arrow-left"></i>
+        </a>
+    </div>
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 4000); // Change image every 4 seconds
+        }
+    </script>
+
+</body>
+
+</html>
