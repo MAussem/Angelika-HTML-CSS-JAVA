@@ -82,10 +82,10 @@ h1 {
 }
 @media only screen and (max-width: 380px) {
 .responsive img {
-    width: 95%;
-    height: 95%;
-    object-position: center;
-    padding-left: 1rem;
+    width: 85%;
+    height: 85%;
+    align-items: center;
+    padding-left: 3.2rem;
     }
 }
 
