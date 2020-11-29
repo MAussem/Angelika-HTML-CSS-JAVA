@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'signPainter';
+    src: url('/fonts/SignPainter-HouseScript.ttf')
+}
+
+@font-face {
+    font-family: 'sylfaen';
+    src: url('/fonts/sylfaen.ttf')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    max-width: 1200px;
+    max-height: 1000px;
+    margin: 0 auto;
+}
+
+.header-wrapper h1 {
+    font-family: 'signPainter';
+    text-align: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+}
+
+.one-third {
+    width: 29%;
+    height: 29%;
+    float: left;
+    margin: 2%;
+}
+
+img:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width: 768px) {
+    .one-third {
+        width: 48%;
+        margin: 1%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .one-third {
+        width: 98%;
+        margin: 1%;
+    }
+}
