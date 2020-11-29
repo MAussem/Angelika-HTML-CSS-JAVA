@@ -13,15 +13,24 @@
     padding: 0;
 }
 
+body {
+    background-image: url(images/project5.png);
+    overflow-x: hidden;
+}
+
 #wrapper {
     max-width: 1200px;
-    max-height: 1000px;
     margin: 0 auto;
 }
 
 .header-wrapper h1 {
     font-family: 'signPainter';
+    font-weight: 300;
+    font-size: 3rem;
+    margin: 2rem 0;
     text-align: center;
+    color: #c29525;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
 }
 
 img {
@@ -30,6 +39,7 @@ img {
     height: auto;
     width: auto;
     margin-bottom: -4px;
+    box-shadow: 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
 }
 
 .one-third {
@@ -41,6 +51,22 @@ img {
 
 img:hover {
     opacity: .8;
+}
+
+.scroll-btn {
+    position: fixed;
+    right: 5rem;
+    bottom: 5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #c29525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #fff;
+    border-radius: 0.3rem;
+    box-shadow: 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 768px) {
