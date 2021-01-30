@@ -1024,6 +1024,7 @@ html {
     font-family: 'sylfaen';
     font-size: 1.5rem;
 }
+
   .border{
     width: 160px;
     height: 5px;
@@ -1036,16 +1037,19 @@ html {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .col{
     flex: 33.33%;
     max-width: 33.33%;
     box-sizing: border-box;
     padding: 15px;
   }
+
   .testimonial{
     background: #fff;
     padding: 30px;
   }
+
   .testimonial img{
     width: 100px;
     height: 100px;
@@ -1063,18 +1067,22 @@ html {
     text-transform: uppercase;
     margin: 20px 0;
   }
+
   .stars{
     color: #c29525;
     margin-bottom: 20px;
   }
-  
   
   @media screen and (max-width:960px) {
   .col{
     flex: 100%;
     max-width: 80%;
   }
+
+  .banner h1 {
+    width: 100%;
   }
+}
   
   @media screen and (max-width:600px) {
   .col{
@@ -1082,8 +1090,12 @@ html {
     max-width: 100%;
   }
 
+  .banner h1 {
+    width: 100%;
+}
+
   .banner button {
     display: none;
   }
-  }
+}
   
