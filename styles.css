@@ -298,7 +298,6 @@ html {
     font-weight: 300;
     color: #fff;
     width: 60%;
-    line-height: 9rem;
     letter-spacing: 0.2rem;
     text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
     opacity: 0;
@@ -1081,6 +1080,10 @@ html {
   .col{
     flex: 100%;
     max-width: 100%;
+  }
+
+  .banner button {
+    display: none;
   }
   }
   
