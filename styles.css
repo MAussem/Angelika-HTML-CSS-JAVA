@@ -1005,6 +1005,9 @@ html {
     background: #f1f1f1;
     color: #434343;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .inner h1 {
@@ -1013,11 +1016,18 @@ html {
     font-weight: 500;
     color: #4b4b4b;
     margin-bottom: 6rem;
+    text-align: center;
   }
   
   .col {
       font-family: 'sylfaen';
       font-size: 2.5rem;
+      display: flex;
+      flex-direction: row;
+      flex: 30%;
+      max-width: 30%;
+      box-sizing: border-box;
+      padding: 15px;
   }
 
   .col p {
@@ -1032,22 +1042,11 @@ html {
     margin: 26px auto;
   }
   
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .col {
-    flex: 33.33%;
-    max-width: 33.33%;
-    box-sizing: border-box;
-    padding: 15px;
-  }
 
   .testimonial {
     background: #fff;
     padding: 30px;
+    box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.2);
   }
 
   .testimonial img {
@@ -1059,6 +1058,7 @@ html {
   .testimonial p {
       font-family: 'sylfaen';
       font-size: 1.5rem;
+      text-align: center;
   }
 
   .name {
@@ -1066,11 +1066,14 @@ html {
     font-size: 3rem;
     text-transform: uppercase;
     margin: 20px 0;
+    text-align: center;
   }
 
   .stars {
     color: #c29525;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
   }
   
   @media screen and (max-width:960px) {
