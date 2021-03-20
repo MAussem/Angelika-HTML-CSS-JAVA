@@ -18,9 +18,10 @@ body {
     overflow-x: hidden;
 }
 
-#wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
+#wrapper__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .header-wrapper h1 {
@@ -38,8 +39,14 @@ img {
     max-width: 100%;
     height: auto;
     width: auto;
-    margin-bottom: -4px;
     box-shadow: 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
+}
+
+.example-image-6 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 9;
 }
 
 .one-third {
